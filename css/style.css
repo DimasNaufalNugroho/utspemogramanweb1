@@ -1,0 +1,22 @@
+body {
+    background-color: #043464;
+}
+.container {
+    max-width: 600px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://id.pinterest.com/pin/903464375240914510/') no-repeat center center;
+    background-size: cover;
+    opacity: 0.6; /* Tambahkan transparansi untuk efek overlay */
+}

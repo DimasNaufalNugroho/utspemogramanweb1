@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandung - Explore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://i.pinimg.com/474x/54/7d/e8/547de8d258247588ceaac3bccdf44d0c.jpg')no-repeat center center;
+            background-size: cover;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            height: 70vh;
+            background: url('https://images.unsplash.com/photo-1592311341805-36f6ec00e26d') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .hero-section .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            z-index: 2;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 64px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .hero-content .btn-primary {
+            background-color: #000000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .hero-content .btn-primary:hover {
+            background-color: #000000;
+        }
+
+        .info-section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .info-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .info-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .info-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .info-card {
+            background: white;
+            box-shadow: 0 4px 8px #000000;
+            border-radius: 10px;
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .info-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .info-card h3 {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .info-card p {
+            font-size: 16px;
+            padding: 0 15px 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>B A N D U N G</h1>
+            <p>Temukan keindahan Bandung, kota bunga. Jelajahi destinasi unik, kuliner lezat, dan pemandangan menakjubkan.</p>
+            <a href="login.html" class="btn btn-primary">Login</a>
+        </div>
+    </div>
+
+    <!-- Information Section -->
+    <div class="info-section">
+        <h2>Explore Bandung</h2>
+        <p>Dari objek wisata alam yang menakjubkan hingga kehidupan kota yang semarak, Bandung menawarkan sesuatu untuk semua orang. Lihat destinasi-destinasi terbaik kami di bawah ini!</p>
+
+        <div class="info-cards">
+            <!-- Card 1 -->
+            <div class="info-card">
+                <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1601460766/blog/fbdnltfnp1iigtkyffzp.webp" alt="Kawah Putih">
+                <h3>Kawah Putih</h3>
+                <p>Kawah Putih Ciwidey sendiri merupakan danau kawah yang terbentuk dari letusan Gunung Patuha, salah satu gunung berapi di Jawa Barat.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="info-card">
+                <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1596032039/blog/uenk4abchnt8ey6hoajk.webp" alt="Braga City">
+                <h3>Braga City</h3>
+                <p>Braga adalah ikon kota Bandung, dan enggak mungkin liburan ke Bandung kalau enggak menyempatkan diri sekadar lewat atau bahkan singgah untuk menikmati hypenya Braga.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="info-card">
+                <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1619078464/blog/je3kavfhjhslr3v3cjvm.webp" alt="The Great Asia Afrika">
+                <h3>The Great Asia Afrika</h3>
+                <p> Terletak di Jalan Raya Lembang, tepat berseberangan dengan Farmhouse Lembang yang lebih dahulu populer, The Great Asia Africa adalah salah satu tempat wisata di Lembang yang tengah naik daun saat ini.</p>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: #000000; color: white; text-align: center; padding: 10px 0;">
+        &copy; Copyright by 22552011185_Dimas Naufal Nugroho_TIF_RP_22CNS
+      </footer>
+      
+</body>
+</html>
